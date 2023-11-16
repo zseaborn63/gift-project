@@ -51,12 +51,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'gift_project.urls'
+ROOT_URLCONF = 'backend.gift_project.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR + "/ui/", ]
+        'DIRS': [BASE_DIR + "/backend/ui/", ]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
